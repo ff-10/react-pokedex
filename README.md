@@ -1,1 +1,5 @@
-# react-pokedex
+### Pokedox Game with React
+
+----
+
+Live: 
