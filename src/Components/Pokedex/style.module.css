@@ -1,0 +1,69 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameBoard {
+    width: 90vw;
+    height: 100vh;
+}
+
+.title {
+    text-shadow: 0 0 2px #000;
+    text-align: center;
+}
+
+.battle_btn {
+    margin-top: 40px;
+    width: 30%;
+}
+
+.team_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.vs_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vs_text img {
+    border-radius: 50%;
+}
+
+.winner {
+    width: 250px;
+    height: 100px;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(96, 78, 93, 1) 70%, rgba(0, 212, 255, 1) 100%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-bottom-left-radius: 20px;
+    padding: 20px;
+    color: #FFFFFF;
+}
+
+.hide {
+    display: none;
+}
+
+.cards_area {
+    height: 75vh;
+}
+
+.winner_text {
+    border-bottom: 1px solid gold;
+    color: bisque;
+}

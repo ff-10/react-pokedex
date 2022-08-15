@@ -1,0 +1,37 @@
+.poke_card{
+    width: 280px;
+    height: 300px;
+    background-color: #d2d2d2;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    margin: 20px;
+    cursor: pointer;
+    box-shadow: 0 0 2px #000;
+    transition: all 80ms;
+    user-select: none;
+}
+
+.poke_card:hover{
+    box-shadow: 0 0 5px #000;
+}
+
+.poke_name{
+    color: #6406fc;
+    margin-top: 18px;
+}
+
+.poke_card span{
+    font-size: 20px;
+}
+
+.poke_info_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.poke_image > img{
+    width: 145px;
+}
