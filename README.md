@@ -2,4 +2,4 @@
 
 ----
 
-Live: 
+Live: https://react-pokedex-ochre.vercel.app/
